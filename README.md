@@ -1,4 +1,4 @@
-# Media Player
+# Random Quote
 
 This project generate a random quotes.
 If you like to share you can copy the quote.
