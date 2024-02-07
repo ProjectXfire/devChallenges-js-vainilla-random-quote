@@ -1,0 +1,44 @@
+.quote {
+  padding: 30px 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-3);
+  border-radius: var(--border-radius-1);
+  background-image: url("/images/bg-image-random-quote.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote-title {
+  margin-bottom: 10px;
+  color: var(--color-6);
+  font-weight: 500;
+}
+
+.quote-tags {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: var(--color-1);
+  font-size: var(--text-small);
+}
+
+.quote-tags span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 12px;
+  border: 1px solid var(--color-1);
+  border-radius: 10px;
+}
+
+.quote-text {
+  margin-top: 20px;
+  font-size: var(--text-large);
+  color: var(--color-5);
+}
